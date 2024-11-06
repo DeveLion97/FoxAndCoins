@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "D:\\Progetti Unity\\FoxAndCoins\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|d:\\progetti unity\\foxandcoins\\assets\\scripts\\asdfasf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\asdfasf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|d:\\progetti unity\\foxandcoins\\assets\\templategame\\script\\player\\controller2d\\celeste\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\player\\controller2d\\celeste\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\PlayerMovements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\TemplateGame\\Script\\Player\\Controller2D\\PlayerMovements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\player\\controller2d\\raycastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\player\\controller2d\\raycastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\player\\controller2d\\controller2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\player\\controller2d\\controller2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\player\\controller2d\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\player\\controller2d\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\ai\\birddetectplayerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\ai\\birddetectplayerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\ai\\birdai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\ai\\birdai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\player\\icantakedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\player\\icantakedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\ai\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\ai\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +51,110 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "asdfasf.cs",
-              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\Scripts\\asdfasf.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\asdfasf.cs",
-              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\Scripts\\asdfasf.cs",
-              "RelativeToolTip": "Assets\\Scripts\\asdfasf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Title": "Movement.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\Celeste\\Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\Celeste\\Movement.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\Celeste\\Movement.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\Celeste\\Movement.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAhwAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T07:54:25.258Z",
+              "WhenOpened": "2024-11-05T09:41:41.54Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerMovements.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\PlayerMovements.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\PlayerMovements.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\PlayerMovements.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\PlayerMovements.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T09:20:26.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RaycastController.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\RaycastController.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\RaycastController.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\RaycastController.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\RaycastController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T08:57:09.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BirdDetectPlayerHelper.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\BirdDetectPlayerHelper.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\AI\\BirdDetectPlayerHelper.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\BirdDetectPlayerHelper.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\AI\\BirdDetectPlayerHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T10:27:00.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Controller2D.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\Controller2D.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\Controller2D.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\Controller2D.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\Controller2D.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T10:24:39.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BirdAI.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\BirdAI.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\AI\\BirdAI.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\BirdAI.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\AI\\BirdAI.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T10:16:19.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICanTakeDamage.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\ICanTakeDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Player\\ICanTakeDamage.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\ICanTakeDamage.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\Player\\ICanTakeDamage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T10:15:44.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAxwKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T09:11:25.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\Player.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\Player.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T13:37:15.867Z"
             }
           ]
         }

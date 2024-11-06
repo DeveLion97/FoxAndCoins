@@ -2,8 +2,9 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Through
   layers:
   - Default
   - TransparentFX
@@ -11,16 +12,16 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Platform
+  - Wall
+  - Enemies
+  - Ignore
+  - Projectiles
+  - AirCollisionHelper
+  - BlockBroken
+  - SpawnItems
+  - AttackTriggerAI
   - 
   - 
   - 
@@ -41,3 +42,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2461799045
+    locked: 0
+  - name: Game
+    uniqueID: 1855224877
+    locked: 0
+  - name: Enemies
+    uniqueID: 1293748091
+    locked: 0
+  - name: Player
+    uniqueID: 1271874245
+    locked: 0
+  - name: Water
+    uniqueID: 835703423
+    locked: 0
+  m_RenderingLayers:
+  - Default

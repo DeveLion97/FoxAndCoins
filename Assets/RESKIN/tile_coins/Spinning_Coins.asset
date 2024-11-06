@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Spinning_Coins
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: e031bd56e750b6d4c9f3d2d9858874fa, type: 3}
+  - {fileID: 21300000, guid: 059f0eb1c08683547b3c33dca4ad2478, type: 3}
+  - {fileID: 21300000, guid: 36b8dc483bccab34d8ca5e71d6565da3, type: 3}
+  - {fileID: 21300000, guid: a1537e775a77e044bbe9a66d06c0b46a, type: 3}
+  - {fileID: 21300000, guid: c6db8752a7bce3e43b2914d3c1b9bc2d, type: 3}
+  - {fileID: 21300000, guid: b788e05be5c012b41a5567f469bf69d1, type: 3}
+  m_MinSpeed: 15
+  m_MaxSpeed: 20
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 2
+  m_TileAnimationFlags: 0
