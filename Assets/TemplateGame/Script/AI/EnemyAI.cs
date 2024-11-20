@@ -121,7 +121,7 @@ public class EnemyAI : MonoBehaviour, ICanTakeDamage, IPlayerRespawnListener {
 		velocity = new Vector3 (x, y, 0);
 	}
 
-	private void FireProjectile(){
+	public void FireProjectile(){
 		if (_fireIn > 0)
 			return;
 

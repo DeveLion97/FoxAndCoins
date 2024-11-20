@@ -98,6 +98,7 @@
     <Compile Include="Assets\TemplateGame\Script\System\CheckPoint.cs" />
     <Compile Include="Assets\TemplateGame\Script\GUI\FloatingText.cs" />
     <Compile Include="Assets\TemplateGame\Script\Environment\GiveHealth.cs" />
+    <Compile Include="Assets\TemplateGame\Script\Player\PlayerWarningTrigger.cs" />
     <Compile Include="Assets\TemplateGame\Script\GUI\Menu_StartScreen.cs" />
     <Compile Include="Assets\TemplateGame\Script\Environment\WaterScrollingEffect.cs" />
     <Compile Include="Assets\TemplateGame\Script\Helper\BackGroundController.cs" />
@@ -124,8 +125,10 @@
     <Compile Include="Assets\TemplateGame\Script\NotEnoughCoins.cs" />
     <Compile Include="Assets\TemplateGame\Script\AI\PathedProjectile.cs" />
     <Compile Include="Assets\TemplateGame\Script\AI\GiveDamageToPlayer.cs" />
+    <Compile Include="Assets\TemplateGame\Script\AI\EnemyShootAnimation.cs" />
     <Compile Include="Assets\TemplateGame\Script\AI\SimpleProjectile.cs" />
     <Compile Include="Assets\TemplateGame\Script\GUI\MainMenuShopItems.cs" />
+    <Compile Include="Assets\TemplateGame\Script\Environment\ParallaxEffect.cs" />
     <Compile Include="Assets\TemplateGame\Script\AI\FireEvil.cs" />
     <Compile Include="Assets\TemplateGame\Script\Helper\SpawnItem.cs" />
     <Compile Include="Assets\TemplateGame\Script\Player\Controller2D\RaycastController.cs" />
@@ -154,6 +157,7 @@
     <Compile Include="Assets\TemplateGame\Script\Environment\ItemAddPoint.cs" />
     <Compile Include="Assets\TemplateGame\Script\AI\BOSS_3.cs" />
     <Compile Include="Assets\TemplateGame\Script\AI\PathedProjectileSpawner.cs" />
+    <Compile Include="Assets\TemplateGame\Script\Player\PlayerWarning.cs" />
     <Compile Include="Assets\TemplateGame\Script\GUI\Menu_GUI.cs" />
     <Compile Include="Assets\RESKIN\Scripts\Ad Manager\RectBannerViewController.cs" />
     <Compile Include="Assets\RESKIN\Scripts\Ad Manager\GoogleAdMobController.cs" />

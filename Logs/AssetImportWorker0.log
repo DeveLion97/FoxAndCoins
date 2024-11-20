@@ -15,7 +15,7 @@ D:/Progetti Unity/FoxAndCoins
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50134
+50611
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Progetti Unity/FoxAndCoins
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9696]  Target information:
+Player connection [23524]  Target information:
 
-Player connection [9696]  * "[IP] 192.168.74.18 [Port] 0 [Flags] 2 [Guid] 4118298262 [EditorId] 4118298262 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AQS078U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23524]  * "[IP] 192.168.188.18 [Port] 0 [Flags] 2 [Guid] 3318354810 [EditorId] 3318354810 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AQS078U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9696] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9696] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23524] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23524] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 69.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 6.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
@@ -91,51 +91,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.007321 seconds.
-- Loaded All Assemblies, in  2.470 seconds
+Registered in 0.006842 seconds.
+- Loaded All Assemblies, in  0.504 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 352 ms
+Android Extension - Scanning For ADB Devices 246 ms
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.904 seconds
-Domain Reload Profiling: 3370ms
-	BeginReloadAssembly (430ms)
+- Finished resetting the current domain, in  0.710 seconds
+Domain Reload Profiling: 1211ms
+	BeginReloadAssembly (164ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (476ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (1489ms)
-		LoadAssemblies (428ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (161ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1484ms)
-			TypeCache.Refresh (1483ms)
-				TypeCache.ScanAssembly (1100ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (190ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (904ms)
+	FinalizeReload (711ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (852ms)
+		SetupLoadedEditorAssemblies (663ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (482ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (371ms)
+			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (219ms)
-			ProcessInitializeOnLoadMethodAttributes (121ms)
-			AfterProcessingInitializeOnLoad (16ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -143,837 +143,204 @@ Domain Reload Profiling: 3370ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  5.891 seconds
-Refreshing native plugins compatible for Editor in 8.21 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.957 seconds
+Refreshing native plugins compatible for Editor in 6.09 ms, found 1 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.802 seconds
-Domain Reload Profiling: 6689ms
-	BeginReloadAssembly (1334ms)
+- Finished resetting the current domain, in  0.592 seconds
+Domain Reload Profiling: 1545ms
+	BeginReloadAssembly (492ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (4453ms)
-		LoadAssemblies (4318ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (357ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (247ms)
-			TypeCache.Refresh (216ms)
-				TypeCache.ScanAssembly (201ms)
-			BuildScriptInfoCaches (24ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (802ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (90ms)
+				TypeCache.ScanAssembly (74ms)
+			BuildScriptInfoCaches (26ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (593ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (529ms)
+		SetupLoadedEditorAssemblies (357ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
+			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (42ms)
-			ProcessInitializeOnLoadAttributes (390ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
+			ProcessInitializeOnLoadAttributes (244ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 7.07 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 5.85 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2168 unused Assets / (1.0 MB). Loaded Objects now: 2712.
-Memory consumption went from 102.0 MB to 101.1 MB.
-Total: 6.290000 ms (FindLiveObjects: 0.323300 ms CreateObjectMapping: 0.265100 ms MarkObjects: 4.854900 ms  DeleteObjects: 0.845600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 858.013939 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tile_ground/shallow_slope_inner_01_right.asset
-  artifactKey: Guid(3c23e6fde761ece4eb975535dacc6027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tile_ground/shallow_slope_inner_01_right.asset using Guid(3c23e6fde761ece4eb975535dacc6027) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a98e19b62f604b4c8ecdac5386115127') in 0.1087341 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tile_ground/shallow_slope_inner_02_right.asset
-  artifactKey: Guid(26c4c84aa8baf6b428f4399a8f09236f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tile_ground/shallow_slope_inner_02_right.asset using Guid(26c4c84aa8baf6b428f4399a8f09236f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcd397077e9a5dbcda8d6e7f2de47573') in 0.0168494 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tile_ground/steep_slope_outer_right.asset
-  artifactKey: Guid(3f0e15eb8f48952428c527ce53c89f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tile_ground/steep_slope_outer_right.asset using Guid(3f0e15eb8f48952428c527ce53c89f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '958d85d6aec699592035deaae15e715c') in 0.0181157 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tile_ground/single_pillar.asset
-  artifactKey: Guid(54d9c7baffded8b4c82805bd9d475fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tile_ground/single_pillar.asset using Guid(54d9c7baffded8b4c82805bd9d475fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4ecb7cb2af60544c89c90fceff23718') in 0.0143847 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tile_ground/shallow_slope_inner_01_left.asset
-  artifactKey: Guid(4408a48b23adb5e4c9808492a95b8ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tile_ground/shallow_slope_inner_01_left.asset using Guid(4408a48b23adb5e4c9808492a95b8ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '547314b842ef5f3cdde27c0d7afe6b42') in 0.0198382 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tile_ground/left_edge.asset
-  artifactKey: Guid(6e8ed0c5c57ebdb479d8e869e3d9fb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tile_ground/left_edge.asset using Guid(6e8ed0c5c57ebdb479d8e869e3d9fb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5744e2b57ff2034762ab680113a102c2') in 0.0157704 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Unloading 2172 unused Assets / (0.9 MB). Loaded Objects now: 2718.
+Memory consumption went from 106.7 MB to 105.8 MB.
+Total: 6.917600 ms (FindLiveObjects: 0.310300 ms CreateObjectMapping: 0.256300 ms MarkObjects: 5.439600 ms  DeleteObjects: 0.908700 ms)
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.560 seconds
-Refreshing native plugins compatible for Editor in 5.34 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.585 seconds
+Refreshing native plugins compatible for Editor in 5.26 ms, found 1 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.688 seconds
-Domain Reload Profiling: 1245ms
-	BeginReloadAssembly (210ms)
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling: 1232ms
+	BeginReloadAssembly (215ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (265ms)
-		LoadAssemblies (301ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (274ms)
+		LoadAssemblies (314ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (76ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (63ms)
+			BuildScriptInfoCaches (70ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (688ms)
+	FinalizeReload (650ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (444ms)
+		SetupLoadedEditorAssemblies (381ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (340ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 5.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 7.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2166 unused Assets / (0.9 MB). Loaded Objects now: 2722.
-Memory consumption went from 100.2 MB to 99.3 MB.
-Total: 5.526200 ms (FindLiveObjects: 0.268200 ms CreateObjectMapping: 0.217000 ms MarkObjects: 4.302700 ms  DeleteObjects: 0.736700 ms)
+Unloading 2170 unused Assets / (0.9 MB). Loaded Objects now: 2721.
+Memory consumption went from 103.9 MB to 103.0 MB.
+Total: 6.362100 ms (FindLiveObjects: 0.330300 ms CreateObjectMapping: 0.296000 ms MarkObjects: 4.642300 ms  DeleteObjects: 1.091500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 591.370668 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/lv2_ground.prefab
-  artifactKey: Guid(89fdcdd26e524504db50ebe1b3ccd4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/lv2_ground.prefab using Guid(89fdcdd26e524504db50ebe1b3ccd4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9ea672d0c339172d8f28a9c9f193aed') in 0.3132921 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 157
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.267258 seconds.
-  path: Assets/RESKIN/LEVEL 1 JUNGLE/tiles_ground/New Tile Palette.prefab
-  artifactKey: Guid(eabca72181a6561438d008445323b82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 1 JUNGLE/tiles_ground/New Tile Palette.prefab using Guid(eabca72181a6561438d008445323b82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed98069b47befe597e50db0577e70872') in 5.7318454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 319
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.610145 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_02.png
-  artifactKey: Guid(f142473cfb9e444418b9c40d976e33d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_02.png using Guid(f142473cfb9e444418b9c40d976e33d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd44d5cde3b5ce29aae1d43df21e09635') in 0.0356995 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032342 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/bottom_edge.png
-  artifactKey: Guid(f072d948d5cc78c4b9dcb7417dec3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/bottom_edge.png using Guid(f072d948d5cc78c4b9dcb7417dec3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea6f2cde993bb739ce384a7b84fb75f2') in 0.0178404 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_end_top_right.png
-  artifactKey: Guid(5a886fb52f68f5746a3231741e9c612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_end_top_right.png using Guid(5a886fb52f68f5746a3231741e9c612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d8afa8c61af339b4e405564c209aa58') in 0.0177518 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_left_edge.png
-  artifactKey: Guid(183380c4492254148b1a87bbbb6eaf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_left_edge.png using Guid(183380c4492254148b1a87bbbb6eaf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c03252c2780b42e744e27b9c44c00f8f') in 0.0144949 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_03.png
-  artifactKey: Guid(e1419ccd90e98574abc95214ec574762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_03.png using Guid(e1419ccd90e98574abc95214ec574762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6492b50ca8329303386cc5ec14234fa') in 0.0242849 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_start_left.png
-  artifactKey: Guid(5aeecf795e8a39445bd306e168b31249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_start_left.png using Guid(5aeecf795e8a39445bd306e168b31249) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4945e4e15a4f3e2ec107536cdef4143c') in 0.0148842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_inner_02_right.png
-  artifactKey: Guid(a5c870eb9fd5d9748a40dc1fe0746e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_inner_02_right.png using Guid(a5c870eb9fd5d9748a40dc1fe0746e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20bddde9cbc794f38b8e8391c5d2b82f') in 0.0143673 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_inner_left.png
-  artifactKey: Guid(4cf4596b4df926841bc74ddf75714faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_inner_left.png using Guid(4cf4596b4df926841bc74ddf75714faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '574263cfdf99a29aeac999d4384b7503') in 0.014326 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_01.png
-  artifactKey: Guid(04c0b25d2bf112d49811660c43f1c648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_01.png using Guid(04c0b25d2bf112d49811660c43f1c648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '163e985c807b5e756ecacbc0062adb71') in 0.0169182 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/island_repeating_center.png
-  artifactKey: Guid(5ecd40286a0fabe4db9029456948d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/island_repeating_center.png using Guid(5ecd40286a0fabe4db9029456948d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b64e30fadb603ad8cc41ed30d7d21622') in 0.013868 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/right_edge.png
-  artifactKey: Guid(f1cd6c7f0e1dbd141a2532874e8b7be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/right_edge.png using Guid(f1cd6c7f0e1dbd141a2532874e8b7be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52bb89f2c5a42b3107ed9dcfcc50e245') in 0.013034 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_only_repeating_ceneter.png
-  artifactKey: Guid(c7ebf9fae5936884387e0c3ae5caf37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_only_repeating_ceneter.png using Guid(c7ebf9fae5936884387e0c3ae5caf37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd49265caa502fcf8288868b6a02f63c1') in 0.0144042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/single_pillar.png
-  artifactKey: Guid(e1ad515f3bcb26545a2f6d2e3a348d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/single_pillar.png using Guid(e1ad515f3bcb26545a2f6d2e3a348d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca711b8fadedd5a4f92319c9223bfc3f') in 0.0148511 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_inner_right.png
-  artifactKey: Guid(4460854afde769d42a9d08556f44525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_inner_right.png using Guid(4460854afde769d42a9d08556f44525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3baf478dcf2a2eb22937c0543562688d') in 0.0133786 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_inner_01_left.png
-  artifactKey: Guid(9fab8109bb759404da87186ae21d1f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_inner_01_left.png using Guid(9fab8109bb759404da87186ae21d1f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed821e9832c2e00f0d70fb13e499a03e') in 0.0136056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_inner_02_left.png
-  artifactKey: Guid(242bf9ceadb88e3438338479be52a781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_inner_02_left.png using Guid(242bf9ceadb88e3438338479be52a781) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caff71100b8612dbdd9a3aa3753bec45') in 0.0127561 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_top_edge_02.png
-  artifactKey: Guid(81361f8d27e6b174dabffb89dfb1a4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_top_edge_02.png using Guid(81361f8d27e6b174dabffb89dfb1a4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '307fa62e3eaae07a9e6c7a810a5edfac') in 0.0135581 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_top_right.png
-  artifactKey: Guid(7801ee6b462895c45bdbc8c86da44354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_top_right.png using Guid(7801ee6b462895c45bdbc8c86da44354) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30f5e7676e4a5016bf3af421127304e8') in 0.0112579 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_end_right.png
-  artifactKey: Guid(23400ca40efd38542b2d501d9d1cd9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_end_right.png using Guid(23400ca40efd38542b2d501d9d1cd9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1edf64413fda519a9bdce83009bd17e') in 0.0158008 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/left_edge.png
-  artifactKey: Guid(66796b1fb541cfe449d33b2b693ba9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/left_edge.png using Guid(66796b1fb541cfe449d33b2b693ba9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18ec87b096c22a9082de6ed813471c12') in 0.0139329 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_top_left.png
-  artifactKey: Guid(90a5b2f4a17644c488140f3e83f5e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_top_left.png using Guid(90a5b2f4a17644c488140f3e83f5e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88ff6be0098a70496c8c7da6b3ffd87e') in 0.0148815 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/bottom_right_corner.png
-  artifactKey: Guid(791ee657fe6b2a543a127b46ea19d41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/bottom_right_corner.png using Guid(791ee657fe6b2a543a127b46ea19d41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dff9fd9305a91c530c8c2eebafaa71b') in 0.0143241 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_continuous_bottom_right.png
-  artifactKey: Guid(2321c98534ac6f54c982b6c30359c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_continuous_bottom_right.png using Guid(2321c98534ac6f54c982b6c30359c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9c650627becb59d1a10e9290c21398f') in 0.0113113 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/island_left_edge.png
-  artifactKey: Guid(73dc47df7e5fab149b37303530bfd52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/island_left_edge.png using Guid(73dc47df7e5fab149b37303530bfd52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67d370ce2bb1764c87e9252b56260bd7') in 0.0138866 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_outer_right.png
-  artifactKey: Guid(8c2c58e870f6db544859441570fc1e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_outer_right.png using Guid(8c2c58e870f6db544859441570fc1e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3fb939e061dbb06fd3a24fcd9eac0a8') in 0.0135147 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/lv2_ground.prefab
-  artifactKey: Guid(89fdcdd26e524504db50ebe1b3ccd4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/lv2_ground.prefab using Guid(89fdcdd26e524504db50ebe1b3ccd4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61b49dd26bb6225bcd9a9fb2d437c8f1') in 0.0432171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 157
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.944446 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_02.png
-  artifactKey: Guid(f142473cfb9e444418b9c40d976e33d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_02.png using Guid(f142473cfb9e444418b9c40d976e33d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fbe47482838abb0dac8b856519ab464') in 0.0141866 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_end_top_right.png
-  artifactKey: Guid(5a886fb52f68f5746a3231741e9c612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_end_top_right.png using Guid(5a886fb52f68f5746a3231741e9c612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85853cf9f6fea268a1f8456192df504f') in 0.0143738 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_03.png
-  artifactKey: Guid(e1419ccd90e98574abc95214ec574762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_03.png using Guid(e1419ccd90e98574abc95214ec574762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56e70b2d60f86c66d0054f2c2bdc3cc4') in 0.0177498 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_start_left.png
-  artifactKey: Guid(5aeecf795e8a39445bd306e168b31249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_start_left.png using Guid(5aeecf795e8a39445bd306e168b31249) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e8a1bb2aab01d594a215f678ce3adfe') in 0.0228579 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_inner_01_right.png
-  artifactKey: Guid(7c25636342bcc4c4196ae984aa00692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_inner_01_right.png using Guid(7c25636342bcc4c4196ae984aa00692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbb5790dae80c0feb0e20c1dbb94b528') in 0.0226927 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/island_right_edge.png
-  artifactKey: Guid(ef0ce52947c39fe4bae04046841faf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/island_right_edge.png using Guid(ef0ce52947c39fe4bae04046841faf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e628974c811741561d8f1fa4f58ae280') in 0.0231735 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_inner_end.png
-  artifactKey: Guid(21ae3bac632757349a1ded4e4c349d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_inner_end.png using Guid(21ae3bac632757349a1ded4e4c349d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f5815e42b8b4f8970a0aabd23b9f9e2') in 0.0139735 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/single_pillar.png
-  artifactKey: Guid(e1ad515f3bcb26545a2f6d2e3a348d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/single_pillar.png using Guid(e1ad515f3bcb26545a2f6d2e3a348d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4220b812760eebc58954b1ea4343a6fd') in 0.0151901 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_inner_outer_left.png
-  artifactKey: Guid(2f45691dc0850e146b7d776cc79f79c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_inner_outer_left.png using Guid(2f45691dc0850e146b7d776cc79f79c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f363b07c37580bc281faaa3b71531fe') in 0.0140772 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_only_right_edge.png
-  artifactKey: Guid(5c06b5bc9cba537478331a812c772cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_only_right_edge.png using Guid(5c06b5bc9cba537478331a812c772cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b931f06c37a024a257f20960e611c31') in 0.0170266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_top_edge_02.png
-  artifactKey: Guid(81361f8d27e6b174dabffb89dfb1a4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_top_edge_02.png using Guid(81361f8d27e6b174dabffb89dfb1a4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '542d4e8f1cb41a4946ceed9f7ea601cd') in 0.0123845 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_end_right.png
-  artifactKey: Guid(23400ca40efd38542b2d501d9d1cd9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_end_right.png using Guid(23400ca40efd38542b2d501d9d1cd9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '711a50845e61fcc543b42fb9c1820fea') in 0.0163187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_end_left.png
-  artifactKey: Guid(bb817928ccedd6f49b8978a4bd91bdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_end_left.png using Guid(bb817928ccedd6f49b8978a4bd91bdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35ef3141921cdd8a21ec64003aee4e52') in 0.0166715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/bottom_right_corner.png
-  artifactKey: Guid(791ee657fe6b2a543a127b46ea19d41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/bottom_right_corner.png using Guid(791ee657fe6b2a543a127b46ea19d41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d28d6b8f0cf00dcf910fc5807b3a76a') in 0.0205375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_end_bottom_left.png
-  artifactKey: Guid(d62f9ba5688bada41b4fa252c88fff46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_end_bottom_left.png using Guid(d62f9ba5688bada41b4fa252c88fff46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcab50b82dea8d59074029193f2852b1') in 0.0133759 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_top_edge_01.png
-  artifactKey: Guid(3b33af68af4dc7f42a6cc461c2d0a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_top_edge_01.png using Guid(3b33af68af4dc7f42a6cc461c2d0a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2667a1c3f125d0cfcb2d096dbf037f94') in 0.0195518 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_outer_01_right.png
-  artifactKey: Guid(3f3a52cab5f7dce408455dbdcb9868bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_outer_01_right.png using Guid(3f3a52cab5f7dce408455dbdcb9868bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ef8428497b25a4d720f0331c13367ff') in 0.0160642 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.941476 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_02.png
-  artifactKey: Guid(f142473cfb9e444418b9c40d976e33d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_02.png using Guid(f142473cfb9e444418b9c40d976e33d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db480a4d46c733902c1d043310df358f') in 0.0141318 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063731 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/bottom_edge.png
-  artifactKey: Guid(f072d948d5cc78c4b9dcb7417dec3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/bottom_edge.png using Guid(f072d948d5cc78c4b9dcb7417dec3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9307eb3544404c093993f4da96e1a3f1') in 0.0152044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_end_top_right.png
-  artifactKey: Guid(5a886fb52f68f5746a3231741e9c612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_end_top_right.png using Guid(5a886fb52f68f5746a3231741e9c612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8465d46f851b9de17afae5e45ca1ca44') in 0.019396 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_outer_01_left.png
-  artifactKey: Guid(312ac39a1ce5ec0478a327da8a599918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_outer_01_left.png using Guid(312ac39a1ce5ec0478a327da8a599918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee5212e16dcce6f46c09363eb8fdd1c0') in 0.0187999 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_continuous_bottom_left.png
-  artifactKey: Guid(8a1c5179ec3bfd7428af2ba7b415cfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_continuous_bottom_left.png using Guid(8a1c5179ec3bfd7428af2ba7b415cfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '573681acddb7977f8bccb1c14d5f0775') in 0.0190835 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_top_edge_03.png
-  artifactKey: Guid(1a691dbdbb307c04594bf9e3a7d6a1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_top_edge_03.png using Guid(1a691dbdbb307c04594bf9e3a7d6a1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bafd8906c4c88f09273a84e2a26435f8') in 0.024454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/island_repeating_center.png
-  artifactKey: Guid(5ecd40286a0fabe4db9029456948d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/island_repeating_center.png using Guid(5ecd40286a0fabe4db9029456948d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f26ec4d9ceb048694620774d2c4a607') in 0.0180249 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_inner_end.png
-  artifactKey: Guid(21ae3bac632757349a1ded4e4c349d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_inner_end.png using Guid(21ae3bac632757349a1ded4e4c349d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26247c1b7718529d2a4cb33ff6e9a43d') in 0.0133445 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/single_pillar_top.png
-  artifactKey: Guid(7ac86b3c798eccf48b3a71aeb6bd8663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/single_pillar_top.png using Guid(7ac86b3c798eccf48b3a71aeb6bd8663) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '678175c1d540bedc46d739d9ca8b32c7') in 0.0224065 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_inner_right.png
-  artifactKey: Guid(4460854afde769d42a9d08556f44525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_inner_right.png using Guid(4460854afde769d42a9d08556f44525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2be848503f92d63d13649481b74efbba') in 0.0181936 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_start_right.png
-  artifactKey: Guid(e991c925d5c138843b6c7f34b36d0f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_start_right.png using Guid(e991c925d5c138843b6c7f34b36d0f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30d5644f8605beae5bf98dbc5535cc7d') in 0.0179253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_end_right.png
-  artifactKey: Guid(23400ca40efd38542b2d501d9d1cd9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_end_right.png using Guid(23400ca40efd38542b2d501d9d1cd9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ab9f5f902aa0ef4113a89c60fde3f39') in 0.0165198 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_only_left_edge.png
-  artifactKey: Guid(e4ead60fc8a0e1e438274d57decbd4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_only_left_edge.png using Guid(e4ead60fc8a0e1e438274d57decbd4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9e1ff55f8308833d80841ac9a4d6e51') in 0.015239 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_end_bottom_left.png
-  artifactKey: Guid(d62f9ba5688bada41b4fa252c88fff46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_end_bottom_left.png using Guid(d62f9ba5688bada41b4fa252c88fff46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fab5a476f2cad4dec79890ec7cfd7c47') in 0.0147083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_right_edge.png
-  artifactKey: Guid(d4447f7cab1e34744920e235c0df99e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_right_edge.png using Guid(d4447f7cab1e34744920e235c0df99e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17dcd7aab93a183706f72016d5cf4dff') in 0.0186208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_outer_01_right.png
-  artifactKey: Guid(3f3a52cab5f7dce408455dbdcb9868bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_outer_01_right.png using Guid(3f3a52cab5f7dce408455dbdcb9868bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4eb6f17c76cc1bdb9144d5b35140850') in 0.0143275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.352715 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_02.png
-  artifactKey: Guid(f142473cfb9e444418b9c40d976e33d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_02.png using Guid(f142473cfb9e444418b9c40d976e33d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '923205cb510abfeb606ccc77e04bea75') in 0.01284 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.088408 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/bottom_edge.png
-  artifactKey: Guid(f072d948d5cc78c4b9dcb7417dec3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/bottom_edge.png using Guid(f072d948d5cc78c4b9dcb7417dec3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '530e91252368e69c6983d884df4c99ed') in 0.0308347 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_end_top_right.png
-  artifactKey: Guid(5a886fb52f68f5746a3231741e9c612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_end_top_right.png using Guid(5a886fb52f68f5746a3231741e9c612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4809314c5b9f57814b894e7f2dc2733') in 0.019291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_outer_02_right.png
-  artifactKey: Guid(5753d98b0b7ff9d4eac7942ebbafba15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_outer_02_right.png using Guid(5753d98b0b7ff9d4eac7942ebbafba15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8145344580350cc4e6c57c710f0719a4') in 0.0180358 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_inner_02_right.png
-  artifactKey: Guid(a5c870eb9fd5d9748a40dc1fe0746e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_inner_02_right.png using Guid(a5c870eb9fd5d9748a40dc1fe0746e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78b636042d7bee39e8b0d1618000c57b') in 0.0161305 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_01.png
-  artifactKey: Guid(04c0b25d2bf112d49811660c43f1c648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_01.png using Guid(04c0b25d2bf112d49811660c43f1c648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '397e1288975fb2277b3d6536260cf433') in 0.0211217 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/island_repeating_center.png
-  artifactKey: Guid(5ecd40286a0fabe4db9029456948d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/island_repeating_center.png using Guid(5ecd40286a0fabe4db9029456948d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b32e9fc446d2b4488eb2307c8935ca37') in 0.0142432 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/right_edge.png
-  artifactKey: Guid(f1cd6c7f0e1dbd141a2532874e8b7be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/right_edge.png using Guid(f1cd6c7f0e1dbd141a2532874e8b7be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42f80b3e8c907a751db146234492ead2') in 0.019836 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_end_bottom_right.png
-  artifactKey: Guid(33d0ba3b5fc377e459dec57c836ce107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_end_bottom_right.png using Guid(33d0ba3b5fc377e459dec57c836ce107) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '372b50c50158cc969176e361ca65c7d4') in 0.016377 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_inner_right.png
-  artifactKey: Guid(4460854afde769d42a9d08556f44525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/steep_slope_inner_right.png using Guid(4460854afde769d42a9d08556f44525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a5289075570e19726f018b94235b9e5') in 0.0168985 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_only_right_edge.png
-  artifactKey: Guid(5c06b5bc9cba537478331a812c772cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_only_right_edge.png using Guid(5c06b5bc9cba537478331a812c772cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3947ef3ba5960b2eb8f017bf4c82ee66') in 0.0188566 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_top_right.png
-  artifactKey: Guid(7801ee6b462895c45bdbc8c86da44354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_top_right.png using Guid(7801ee6b462895c45bdbc8c86da44354) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faba17923e72bfea5ddcf344a068a308') in 0.0138842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_end_right.png
-  artifactKey: Guid(23400ca40efd38542b2d501d9d1cd9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/shallow_slope_end_right.png using Guid(23400ca40efd38542b2d501d9d1cd9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdb7e94ac1361c2a93efcf043c7f8676') in 0.0209872 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_top_left.png
-  artifactKey: Guid(90a5b2f4a17644c488140f3e83f5e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_top_left.png using Guid(90a5b2f4a17644c488140f3e83f5e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e14f53f479179383e089b450e93fdc4a') in 0.0125202 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_continuous_bottom_right.png
-  artifactKey: Guid(2321c98534ac6f54c982b6c30359c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/inner_join_continuous_bottom_right.png using Guid(2321c98534ac6f54c982b6c30359c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4b16deb9ed38ad782132b56c43d9f26') in 0.020208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/island_left_edge.png
-  artifactKey: Guid(73dc47df7e5fab149b37303530bfd52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/island_left_edge.png using Guid(73dc47df7e5fab149b37303530bfd52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25900fd5ca4b8e6bf21109b64d20f62a') in 0.0130387 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_right_edge.png
-  artifactKey: Guid(d4447f7cab1e34744920e235c0df99e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/top_right_edge.png using Guid(d4447f7cab1e34744920e235c0df99e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56b144711eabc4dcf5fdab0100f608ef') in 0.0136979 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_04.png
-  artifactKey: Guid(abc0ea84315cabf498f138ed85a87609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVEL 2 CITY/tiles_128px/fill_04.png using Guid(abc0ea84315cabf498f138ed85a87609) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1232ead891f6855b8abe609e22d8dcf1') in 0.0168032 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.606 seconds
-Refreshing native plugins compatible for Editor in 5.35 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.604 seconds
+Refreshing native plugins compatible for Editor in 6.15 ms, found 1 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.759 seconds
-Domain Reload Profiling: 1361ms
-	BeginReloadAssembly (228ms)
+- Finished resetting the current domain, in  0.681 seconds
+Domain Reload Profiling: 1283ms
+	BeginReloadAssembly (235ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (15ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (270ms)
-		LoadAssemblies (319ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (281ms)
+		LoadAssemblies (334ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (78ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			BuildScriptInfoCaches (65ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (760ms)
+	FinalizeReload (681ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (507ms)
+		SetupLoadedEditorAssemblies (410ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (43ms)
-			ProcessInitializeOnLoadAttributes (371ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 5.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 11.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2166 unused Assets / (0.9 MB). Loaded Objects now: 2731.
-Memory consumption went from 100.7 MB to 99.8 MB.
-Total: 5.694200 ms (FindLiveObjects: 0.260400 ms CreateObjectMapping: 0.187400 ms MarkObjects: 4.357200 ms  DeleteObjects: 0.888300 ms)
+Unloading 2170 unused Assets / (0.9 MB). Loaded Objects now: 2723.
+Memory consumption went from 103.9 MB to 103.0 MB.
+Total: 11.904100 ms (FindLiveObjects: 0.355500 ms CreateObjectMapping: 0.471200 ms MarkObjects: 9.677300 ms  DeleteObjects: 1.397800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.598 seconds
+Refreshing native plugins compatible for Editor in 6.15 ms, found 1 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.792 seconds
+Domain Reload Profiling: 2387ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (1250ms)
+		LoadAssemblies (1284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (94ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (81ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (792ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (508ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (372ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 7.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2170 unused Assets / (1.0 MB). Loaded Objects now: 2725.
+Memory consumption went from 103.9 MB to 102.9 MB.
+Total: 6.034700 ms (FindLiveObjects: 0.261200 ms CreateObjectMapping: 0.208100 ms MarkObjects: 4.271800 ms  DeleteObjects: 1.292300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
