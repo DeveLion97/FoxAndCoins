@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '6000.0/staging' branch; Version is '6000.0.23f1 (1c4764c07fb4) revision 1853284'; Using compiler version '193933523'; Build Type 'Release'
+Built from '6000.0/staging' branch; Version is '6000.0.27f1 (27c554a2199c) revision 2606420'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'it' Physical Memory: 16219 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ D:/Progetti Unity/FoxAndCoins
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50611
+58785
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Progetti Unity/FoxAndCoins
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23524]  Target information:
+Player connection [7176]  Target information:
 
-Player connection [23524]  * "[IP] 192.168.188.18 [Port] 0 [Flags] 2 [Guid] 3318354810 [EditorId] 3318354810 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AQS078U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [7176]  * "[IP] 192.168.253.18 [Port] 0 [Flags] 2 [Guid] 1681492667 [EditorId] 1681492667 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [23524] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [23524] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7176] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7176] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,10 +75,10 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 6.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 6.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 6000.0.27f1 (27c554a2199c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Progetti Unity/FoxAndCoins/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
@@ -88,54 +88,56 @@ Direct3D:
     VRAM:     3949 MB
     Driver:   31.0.15.3742
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.006842 seconds.
-- Loaded All Assemblies, in  0.504 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.005023 seconds.
+- Loaded All Assemblies, in  0.675 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 246 ms
-Native extension for UWP target not found
+Android Extension - Scanning For ADB Devices 287 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.710 seconds
-Domain Reload Profiling: 1211ms
-	BeginReloadAssembly (164ms)
+- Finished resetting the current domain, in  0.814 seconds
+Domain Reload Profiling: 1487ms
+	BeginReloadAssembly (249ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (213ms)
-		LoadAssemblies (161ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (284ms)
+		LoadAssemblies (248ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (209ms)
-			TypeCache.Refresh (207ms)
-				TypeCache.ScanAssembly (190ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (276ms)
+				TypeCache.ScanAssembly (257ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (711ms)
+	FinalizeReload (815ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (663ms)
+		SetupLoadedEditorAssemblies (764ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (371ms)
+			InitializePlatformSupportModulesInManaged (418ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (188ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -143,204 +145,803 @@ Domain Reload Profiling: 1211ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.957 seconds
-Refreshing native plugins compatible for Editor in 6.09 ms, found 1 plugins.
+- Loaded All Assemblies, in  1.055 seconds
+Refreshing native plugins compatible for Editor in 5.91 ms, found 1 plugins.
+Native extension for iOS target not found
 Native extension for Android target not found
-Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.592 seconds
-Domain Reload Profiling: 1545ms
-	BeginReloadAssembly (492ms)
+- Finished resetting the current domain, in  0.784 seconds
+Domain Reload Profiling: 1837ms
+	BeginReloadAssembly (526ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (355ms)
-		LoadAssemblies (357ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (418ms)
+		LoadAssemblies (391ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (123ms)
-			TypeCache.Refresh (90ms)
-				TypeCache.ScanAssembly (74ms)
-			BuildScriptInfoCaches (26ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (593ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (86ms)
+			BuildScriptInfoCaches (29ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (785ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (357ms)
+		SetupLoadedEditorAssemblies (474ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
+			InitializePlatformSupportModulesInManaged (21ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (42ms)
-			ProcessInitializeOnLoadAttributes (244ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 5.85 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 5.37 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2172 unused Assets / (0.9 MB). Loaded Objects now: 2718.
-Memory consumption went from 106.7 MB to 105.8 MB.
-Total: 6.917600 ms (FindLiveObjects: 0.310300 ms CreateObjectMapping: 0.256300 ms MarkObjects: 5.439600 ms  DeleteObjects: 0.908700 ms)
+Unloading 2171 unused Assets / (1.1 MB). Loaded Objects now: 2717.
+Memory consumption went from 108.8 MB to 107.7 MB.
+Total: 8.617500 ms (FindLiveObjects: 0.357100 ms CreateObjectMapping: 0.453700 ms MarkObjects: 6.623400 ms  DeleteObjects: 1.180200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33758.443964 seconds.
+  path: Assets/TemplateGame/Scene/Worlds/Gameplay/World 4.unity
+  artifactKey: Guid(a5a9770756dee4aa59a724786ee74961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplateGame/Scene/Worlds/Gameplay/World 4.unity using Guid(a5a9770756dee4aa59a724786ee74961) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25fe65882c75a9193bc44180ab7e3b1e') in 0.0065589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.585 seconds
-Refreshing native plugins compatible for Editor in 5.26 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.557 seconds
+Refreshing native plugins compatible for Editor in 4.43 ms, found 1 plugins.
+Native extension for iOS target not found
 Native extension for Android target not found
-Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.650 seconds
-Domain Reload Profiling: 1232ms
-	BeginReloadAssembly (215ms)
+- Finished resetting the current domain, in  0.635 seconds
+Domain Reload Profiling: 1191ms
+	BeginReloadAssembly (201ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (15ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (274ms)
-		LoadAssemblies (314ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (291ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (82ms)
+		AnalyzeDomain (91ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (70ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (650ms)
+			BuildScriptInfoCaches (78ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (636ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (381ms)
+		SetupLoadedEditorAssemblies (358ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
+			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (264ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 7.50 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2170 unused Assets / (0.9 MB). Loaded Objects now: 2721.
-Memory consumption went from 103.9 MB to 103.0 MB.
-Total: 6.362100 ms (FindLiveObjects: 0.330300 ms CreateObjectMapping: 0.296000 ms MarkObjects: 4.642300 ms  DeleteObjects: 1.091500 ms)
+Unloading 2169 unused Assets / (0.9 MB). Loaded Objects now: 2722.
+Memory consumption went from 106.5 MB to 105.6 MB.
+Total: 5.158200 ms (FindLiveObjects: 0.276700 ms CreateObjectMapping: 0.181300 ms MarkObjects: 3.999500 ms  DeleteObjects: 0.699600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.604 seconds
-Refreshing native plugins compatible for Editor in 6.15 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.559 seconds
+Refreshing native plugins compatible for Editor in 5.40 ms, found 1 plugins.
+Native extension for iOS target not found
 Native extension for Android target not found
-Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.681 seconds
-Domain Reload Profiling: 1283ms
-	BeginReloadAssembly (235ms)
+- Finished resetting the current domain, in  0.656 seconds
+Domain Reload Profiling: 1214ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (68ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (656ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (360ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2169 unused Assets / (0.9 MB). Loaded Objects now: 2724.
+Memory consumption went from 106.5 MB to 105.6 MB.
+Total: 6.794200 ms (FindLiveObjects: 0.286800 ms CreateObjectMapping: 0.193600 ms MarkObjects: 5.434000 ms  DeleteObjects: 0.878800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.571 seconds
+Refreshing native plugins compatible for Editor in 5.28 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.626 seconds
+Domain Reload Profiling: 1196ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (268ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (87ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (627ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (366ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2169 unused Assets / (0.9 MB). Loaded Objects now: 2726.
+Memory consumption went from 106.5 MB to 105.6 MB.
+Total: 6.409700 ms (FindLiveObjects: 0.266200 ms CreateObjectMapping: 0.192100 ms MarkObjects: 4.950900 ms  DeleteObjects: 0.998800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 462.651291 seconds.
+  path: Assets/TemplateGame/Scene/Worlds/Gameplay/World 4.unity
+  artifactKey: Guid(a5a9770756dee4aa59a724786ee74961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplateGame/Scene/Worlds/Gameplay/World 4.unity using Guid(a5a9770756dee4aa59a724786ee74961) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5069bd64d3d5f49422cd8b5f221df79a') in 0.0039873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.625 seconds
+Refreshing native plugins compatible for Editor in 5.60 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling: 1273ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (303ms)
+		LoadAssemblies (337ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (78ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (652ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (387ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2169 unused Assets / (0.9 MB). Loaded Objects now: 2728.
+Memory consumption went from 106.5 MB to 105.6 MB.
+Total: 6.327500 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.276600 ms MarkObjects: 4.939900 ms  DeleteObjects: 0.835200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 715.664557 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_005.png
+  artifactKey: Guid(6f48743600b2c9f48b5ceb857ef868a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_005.png using Guid(6f48743600b2c9f48b5ceb857ef868a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1956f47904c9cda41032f2da39e701e1') in 0.1358405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_007.png
+  artifactKey: Guid(8259064f16fa19c46839b00c373eb7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_007.png using Guid(8259064f16fa19c46839b00c373eb7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9e921e5d29a82a9bf3272f69a1f881d') in 0.0208292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_009.png
+  artifactKey: Guid(95479795d98ac574ea60b6c034d05015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_009.png using Guid(95479795d98ac574ea60b6c034d05015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8657937a02625b479d4d27f682734f64') in 0.0136568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_010.png
+  artifactKey: Guid(47503fe0893d70947a218a75bfca3391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_010.png using Guid(47503fe0893d70947a218a75bfca3391) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04ece8c144c820b3baa5133b718f650f') in 0.024946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033006 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_012.png
+  artifactKey: Guid(a6d9149954fafa840af12bfcf08f3f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_012.png using Guid(a6d9149954fafa840af12bfcf08f3f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57899fad5c2e39d0644c8a1c9d3ef6b1') in 0.0208784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005635 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_013.png
+  artifactKey: Guid(e2983613259a983439133b9ea6f5c778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_013.png using Guid(e2983613259a983439133b9ea6f5c778) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9a5c97eda808a6e9ba6b9b3c838757f') in 0.0145643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012355 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_014.png
+  artifactKey: Guid(3e1338dcdd645f94e9959d6294101ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_014.png using Guid(3e1338dcdd645f94e9959d6294101ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75f0ce8c8c4024862b68effd608fc1a9') in 0.0158526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039507 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_015.png
+  artifactKey: Guid(b85ee72b276869b4e915aff4aadbea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_015.png using Guid(b85ee72b276869b4e915aff4aadbea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cba634fdb495ae45d5e4a3f26cbd4632') in 0.0266591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004372 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_016.png
+  artifactKey: Guid(52bcaef4ac3e66d4fb4b276e6babda66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_016.png using Guid(52bcaef4ac3e66d4fb4b276e6babda66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5db5ccf8476f7189b97ebd7a67a0aaf') in 0.0263055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004512 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_017.png
+  artifactKey: Guid(61043ff4231c3e94f9b5933fd0f1ec3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_017.png using Guid(61043ff4231c3e94f9b5933fd0f1ec3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9227235a014f645731ccf377252dfea6') in 0.013057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021349 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_018.png
+  artifactKey: Guid(92b5923f271462943ab13810e6c110ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_018.png using Guid(92b5923f271462943ab13810e6c110ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '688de347d06e6202b9a118e060d09845') in 0.0135811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025371 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_019.png
+  artifactKey: Guid(87a0b2c61da6e1442a9c1c8a5e4812c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_idle_standing_019.png using Guid(87a0b2c61da6e1442a9c1c8a5e4812c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd80f3953bcaf998d5cc58e6b996d889a') in 0.0143341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020764 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_000.png
+  artifactKey: Guid(9b0e048ce8bcd044f916da7797031e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_000.png using Guid(9b0e048ce8bcd044f916da7797031e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c223d8f593a723690b1a6e8ad1be0e38') in 0.031075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_001.png
+  artifactKey: Guid(72f0f10b123061e43b796fde99d8d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_001.png using Guid(72f0f10b123061e43b796fde99d8d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f59b7f1e45f83846e309f9baa6a94e7b') in 0.0161759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004936 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_002.png
+  artifactKey: Guid(b5dde7f1fc1664e48bcd19c2c6cd6768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_002.png using Guid(b5dde7f1fc1664e48bcd19c2c6cd6768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd00de386db88ba9ccfaae59116732051') in 0.0455775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031765 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_003.png
+  artifactKey: Guid(ff4987b94587c364b8b67e5258aae368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_003.png using Guid(ff4987b94587c364b8b67e5258aae368) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d09454658a4b42f4a27ac36f7c7b0b4') in 0.0539835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_004.png
+  artifactKey: Guid(05d836f47965fbe45b1f361f138e0304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_004.png using Guid(05d836f47965fbe45b1f361f138e0304) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abebdd13c0c2fc52a474424103ab4f42') in 0.0143525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020162 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_005.png
+  artifactKey: Guid(6a1beb2194ee6154284f354772390786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_005.png using Guid(6a1beb2194ee6154284f354772390786) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2da746467251fd9b9d88809f147e14e9') in 0.0127543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019476 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_006.png
+  artifactKey: Guid(60c2939b590a6ba479e89c44025e8d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_006.png using Guid(60c2939b590a6ba479e89c44025e8d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa60c3de471e6c6d437d1b4290cd47ca') in 0.0131495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021512 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_007.png
+  artifactKey: Guid(d3b426b8f8c91604bab917c15b15d4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_007.png using Guid(d3b426b8f8c91604bab917c15b15d4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d23c261a6212629d7aba1061eb10464') in 0.0128915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020223 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_008.png
+  artifactKey: Guid(86acde2407ff16d4ca43a7e847dad93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_008.png using Guid(86acde2407ff16d4ca43a7e847dad93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85ef64945ef17df8f70669dbc4de3ccf') in 0.0135988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024922 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_009.png
+  artifactKey: Guid(0beedeaeb4aabc841a9793c06bb393ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_crouched_009.png using Guid(0beedeaeb4aabc841a9793c06bb393ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b5bd5f086b923f9ae6d85338a458671') in 0.014169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009330 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_000.png
+  artifactKey: Guid(31c76f2fc22db4a418eba01a3d264d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_000.png using Guid(31c76f2fc22db4a418eba01a3d264d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca52e88b26b0390f6ec049f1fcdbd59d') in 0.0136396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025848 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_001.png
+  artifactKey: Guid(e3e52b8b3ea3df24a9183e8bec4daa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_001.png using Guid(e3e52b8b3ea3df24a9183e8bec4daa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a07d1545e887c5154af56ee35247d6e') in 0.0222108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004133 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_002.png
+  artifactKey: Guid(9ba359c720f9b0548b81a69eb9fc2f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_002.png using Guid(9ba359c720f9b0548b81a69eb9fc2f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2065412d094360943a7605d6a549101b') in 0.0136161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015729 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_003.png
+  artifactKey: Guid(0deeccf4b5c697549a1ddf44b09f6dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_003.png using Guid(0deeccf4b5c697549a1ddf44b09f6dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9828ccb335705ed66e3dccbbc758fe21') in 0.0138872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003445 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_004.png
+  artifactKey: Guid(ce3fc66a317457a44bae29e1d10e9b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_004.png using Guid(ce3fc66a317457a44bae29e1d10e9b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e419721ace79b97a711c9fcf5ac8a45') in 0.0134222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024760 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_005.png
+  artifactKey: Guid(b50212c694967aa43970dd4d2e65cbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_005.png using Guid(b50212c694967aa43970dd4d2e65cbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ebd5f0b8547ac7a99be32ba4cf230af') in 0.0207719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006084 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_006.png
+  artifactKey: Guid(3f2e38b29a13a0c4689faf28f75aa142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_006.png using Guid(3f2e38b29a13a0c4689faf28f75aa142) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a6799a9439cf76c0811046fda378379') in 0.0433766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004019 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_007.png
+  artifactKey: Guid(f890aecaab03be24290c59bfb81a1a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_007.png using Guid(f890aecaab03be24290c59bfb81a1a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '036e5c7db1a0115be4eb6364f9ff244b') in 0.015891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004013 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_008.png
+  artifactKey: Guid(dccd47bf5d4291f4bb6cc0a1b93f95c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_008.png using Guid(dccd47bf5d4291f4bb6cc0a1b93f95c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4572da9601053ccc3a112f2e003ab3f8') in 0.0136234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018204 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_009.png
+  artifactKey: Guid(27808c8a6e1a9ab458bb91b34362ef43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_move_jump_standing_009.png using Guid(27808c8a6e1a9ab458bb91b34362ef43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2339bfabc2008ed92fee28e94e2b2ac') in 0.0213274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005957 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_crouch_to_stand_000.png
+  artifactKey: Guid(ea72eddc85706a34d9526d67fe3e80f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_crouch_to_stand_000.png using Guid(ea72eddc85706a34d9526d67fe3e80f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deb09f6e7cd3ef06cd28f4b67ed55cc8') in 0.0183167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005783 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_crouch_to_stand_001.png
+  artifactKey: Guid(df46977c2c280b743a0650432f41804c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_crouch_to_stand_001.png using Guid(df46977c2c280b743a0650432f41804c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '830b19837fa894d35613cbf3b8c80e62') in 0.0302637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008464 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_crouch_to_stand_003.png
+  artifactKey: Guid(168002980e4c7754d839984874440dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_crouch_to_stand_003.png using Guid(168002980e4c7754d839984874440dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0117152a1a36d1992e3b142a4d371ab') in 0.0136445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026029 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_crouch_to_stand_004.png
+  artifactKey: Guid(d27944dcc52d72e4e904f44985742ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_crouch_to_stand_004.png using Guid(d27944dcc52d72e4e904f44985742ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fba7c01b6126fa75a2d6a210beb4e2d') in 0.012897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010330 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_stand_to_crouch_000.png
+  artifactKey: Guid(791d86300e7d12844b2ff91ed71626ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_stand_to_crouch_000.png using Guid(791d86300e7d12844b2ff91ed71626ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37de8dd20e6aa5dcc5b0539e31245979') in 0.0140066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016576 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_stand_to_crouch_001.png
+  artifactKey: Guid(420eedeb9f128e3408737e1a320a32b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_stand_to_crouch_001.png using Guid(420eedeb9f128e3408737e1a320a32b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69310a1f4f18baa371774d5524dc1912') in 0.0200335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004442 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_stand_to_crouch_002.png
+  artifactKey: Guid(03ed5a63efaac644d8a7fb382bcc4d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_stand_to_crouch_002.png using Guid(03ed5a63efaac644d8a7fb382bcc4d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '041c50379b6226609b360835a33f327a') in 0.0130027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015137 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_stand_to_crouch_003.png
+  artifactKey: Guid(852726b7325a7024eb8ea0779261b1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_stand_to_crouch_003.png using Guid(852726b7325a7024eb8ea0779261b1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34056272dd2a1bb71d25e368ae253077') in 0.0140476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022086 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_stand_to_crouch_004.png
+  artifactKey: Guid(c846c0252f0c5ba43a3b0b7b985450c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/L4 FLOATING ENIMIES/RABBIT/__grey_rabbit_transition_stand_to_crouch_004.png using Guid(c846c0252f0c5ba43a3b0b7b985450c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7bc60fb0709fdbdb2fe41129a70902e') in 0.0167005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.588 seconds
+Refreshing native plugins compatible for Editor in 6.16 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.638 seconds
+Domain Reload Profiling: 1224ms
+	BeginReloadAssembly (216ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (15ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (281ms)
-		LoadAssemblies (334ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (272ms)
+		LoadAssemblies (309ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (77ms)
+		AnalyzeDomain (78ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (65ms)
+			BuildScriptInfoCaches (66ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (681ms)
+	FinalizeReload (638ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (410ms)
+		SetupLoadedEditorAssemblies (365ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
+			InitializePlatformSupportModulesInManaged (18ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (286ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 11.16 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 8.00 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2170 unused Assets / (0.9 MB). Loaded Objects now: 2723.
-Memory consumption went from 103.9 MB to 103.0 MB.
-Total: 11.904100 ms (FindLiveObjects: 0.355500 ms CreateObjectMapping: 0.471200 ms MarkObjects: 9.677300 ms  DeleteObjects: 1.397800 ms)
+Unloading 2169 unused Assets / (0.9 MB). Loaded Objects now: 2735.
+Memory consumption went from 106.6 MB to 105.8 MB.
+Total: 5.287100 ms (FindLiveObjects: 0.270600 ms CreateObjectMapping: 0.204800 ms MarkObjects: 4.076500 ms  DeleteObjects: 0.734500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.598 seconds
-Refreshing native plugins compatible for Editor in 6.15 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.620 seconds
+Refreshing native plugins compatible for Editor in 5.84 ms, found 1 plugins.
+Native extension for iOS target not found
 Native extension for Android target not found
-Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.792 seconds
-Domain Reload Profiling: 2387ms
-	BeginReloadAssembly (246ms)
+- Finished resetting the current domain, in  0.692 seconds
+Domain Reload Profiling: 1310ms
+	BeginReloadAssembly (232ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (15ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (64ms)
-	RebuildCommonClasses (48ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (42ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (1250ms)
-		LoadAssemblies (1284ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (329ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (94ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (81ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (792ms)
+			BuildScriptInfoCaches (70ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (693ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (508ms)
+		SetupLoadedEditorAssemblies (427ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (17ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (372ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 7.00 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 5.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2170 unused Assets / (1.0 MB). Loaded Objects now: 2725.
-Memory consumption went from 103.9 MB to 102.9 MB.
-Total: 6.034700 ms (FindLiveObjects: 0.261200 ms CreateObjectMapping: 0.208100 ms MarkObjects: 4.271800 ms  DeleteObjects: 1.292300 ms)
+Unloading 2169 unused Assets / (0.8 MB). Loaded Objects now: 2737.
+Memory consumption went from 106.6 MB to 105.8 MB.
+Total: 5.274400 ms (FindLiveObjects: 0.259800 ms CreateObjectMapping: 0.176300 ms MarkObjects: 4.076300 ms  DeleteObjects: 0.761200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.575 seconds
+Refreshing native plugins compatible for Editor in 5.45 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.623 seconds
+Domain Reload Profiling: 1196ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (275ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (66ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (623ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (378ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2169 unused Assets / (0.9 MB). Loaded Objects now: 2739.
+Memory consumption went from 106.6 MB to 105.7 MB.
+Total: 5.566600 ms (FindLiveObjects: 0.262600 ms CreateObjectMapping: 0.182200 ms MarkObjects: 4.263400 ms  DeleteObjects: 0.856900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.573 seconds
+Refreshing native plugins compatible for Editor in 5.29 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 1225ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (262ms)
+		LoadAssemblies (297ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (76ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (65ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (655ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2169 unused Assets / (0.9 MB). Loaded Objects now: 2741.
+Memory consumption went from 106.6 MB to 105.8 MB.
+Total: 6.389000 ms (FindLiveObjects: 0.288400 ms CreateObjectMapping: 0.270200 ms MarkObjects: 5.056700 ms  DeleteObjects: 0.772300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
