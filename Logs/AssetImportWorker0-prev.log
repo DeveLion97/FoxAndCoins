@@ -15,7 +15,7 @@ D:/Progetti Unity/FoxAndCoins
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53678
+58897
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Progetti Unity/FoxAndCoins
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19072]  Target information:
+Player connection [18492]  Target information:
 
-Player connection [19072]  * "[IP] 192.168.14.18 [Port] 0 [Flags] 2 [Guid] 1633433531 [EditorId] 1633433531 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18492]  * "[IP] 192.168.181.18 [Port] 0 [Flags] 2 [Guid] 3957717725 [EditorId] 3957717725 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19072] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19072] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18492] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18492] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.05 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 6.07 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -91,53 +91,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.007618 seconds.
-- Loaded All Assemblies, in  0.510 seconds
+Registered in 0.008343 seconds.
+- Loaded All Assemblies, in  0.459 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 244 ms
+Android Extension - Scanning For ADB Devices 215 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.914 seconds
-Domain Reload Profiling: 1421ms
-	BeginReloadAssembly (160ms)
+- Finished resetting the current domain, in  0.666 seconds
+Domain Reload Profiling: 1122ms
+	BeginReloadAssembly (150ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (220ms)
-		LoadAssemblies (156ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (146ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (215ms)
-			TypeCache.Refresh (213ms)
-				TypeCache.ScanAssembly (195ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (167ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (915ms)
+	FinalizeReload (666ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (858ms)
+		SetupLoadedEditorAssemblies (622ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (391ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (9ms)
-			ProcessInitializeOnLoadAttributes (291ms)
-			ProcessInitializeOnLoadMethodAttributes (158ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (345ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -145,95 +145,51 @@ Domain Reload Profiling: 1421ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.954 seconds
-Refreshing native plugins compatible for Editor in 6.34 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.885 seconds
+Refreshing native plugins compatible for Editor in 6.75 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.922 seconds
-Domain Reload Profiling: 1873ms
-	BeginReloadAssembly (484ms)
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling: 1513ms
+	BeginReloadAssembly (447ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (358ms)
-		LoadAssemblies (367ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (326ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (94ms)
-				TypeCache.ScanAssembly (77ms)
-			BuildScriptInfoCaches (26ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (87ms)
+				TypeCache.ScanAssembly (73ms)
+			BuildScriptInfoCaches (25ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (923ms)
+	FinalizeReload (632ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (642ms)
+		SetupLoadedEditorAssemblies (389ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (479ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 6.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 6.10 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (0.8 MB). Loaded Objects now: 2717.
-Memory consumption went from 104.9 MB to 104.1 MB.
-Total: 8.132000 ms (FindLiveObjects: 0.552200 ms CreateObjectMapping: 0.440200 ms MarkObjects: 5.563300 ms  DeleteObjects: 1.573500 ms)
+Unloading 2172 unused Assets / (1.1 MB). Loaded Objects now: 2718.
+Memory consumption went from 106.9 MB to 105.8 MB.
+Total: 6.095800 ms (FindLiveObjects: 0.270100 ms CreateObjectMapping: 0.196400 ms MarkObjects: 4.772000 ms  DeleteObjects: 0.854800 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 8121.483216 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 3 GRAVE YARD/L3 GRAVEYARD SCENE/graveyard_items/pngs/HILLS
-  artifactKey: Guid(8ae6396371347124a9816381adac8147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 3 GRAVE YARD/L3 GRAVEYARD SCENE/graveyard_items/pngs/HILLS using Guid(8ae6396371347124a9816381adac8147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6177338bf8612518799c3b97214b6328') in 0.0062734 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 3 GRAVE YARD/L3 GRAVEYARD SCENE/graveyard_items/pngs/HILLS/small_hill copy.png
-  artifactKey: Guid(786cb326cc9300f41b7078971e1d97eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 3 GRAVE YARD/L3 GRAVEYARD SCENE/graveyard_items/pngs/HILLS/small_hill copy.png using Guid(786cb326cc9300f41b7078971e1d97eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd97f7014f470d1f72dcb8b9396adf03') in 0.0783428 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 3 GRAVE YARD/L3 GRAVEYARD SCENE/graveyard_items/pngs/HILLS/light_hill_long copy.png
-  artifactKey: Guid(f88b0fb610ea57345a4bf50373951240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 3 GRAVE YARD/L3 GRAVEYARD SCENE/graveyard_items/pngs/HILLS/light_hill_long copy.png using Guid(f88b0fb610ea57345a4bf50373951240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b83c7d5dd229bc7103031317c668efcf') in 0.0218558 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 3 GRAVE YARD/L3 GRAVEYARD SCENE/graveyard_items/pngs/HILLS/light_hill_long.png
-  artifactKey: Guid(f978b1512ba24a74e9846141f143a3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 3 GRAVE YARD/L3 GRAVEYARD SCENE/graveyard_items/pngs/HILLS/light_hill_long.png using Guid(f978b1512ba24a74e9846141f143a3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f52031ad3115df67e4866727fecfa4d') in 0.0291737 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.304112 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 3 GRAVE YARD/L3 GRAVEYARD SCENE/graveyard_items/pngs/HILLS/light_hill_long.png
-  artifactKey: Guid(f978b1512ba24a74e9846141f143a3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 3 GRAVE YARD/L3 GRAVEYARD SCENE/graveyard_items/pngs/HILLS/light_hill_long.png using Guid(f978b1512ba24a74e9846141f143a3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60a848ec2b78df2231419d4a75cdba31') in 0.066045 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
