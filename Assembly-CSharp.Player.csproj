@@ -79,6 +79,7 @@
     <Compile Include="Assets\TemplateGame\Script\GUI\ControllerInput.cs" />
     <Compile Include="Assets\TemplateGame\Script\Environment\CoinTile.cs" />
     <Compile Include="Assets\RESKIN\Scripts\Ad Manager\InterstitialAdController.cs" />
+    <Compile Include="Assets\TemplateGame\Script\Environment\ScrollingEffect.cs" />
     <Compile Include="Assets\TemplateGame\Script\GUI\MainMenuHomeScene.cs" />
     <Compile Include="Assets\TemplateGame\Script\Player\HealthBar.cs" />
     <Compile Include="Assets\TemplateGame\Script\Player\Controller2D\Controller2D.cs" />

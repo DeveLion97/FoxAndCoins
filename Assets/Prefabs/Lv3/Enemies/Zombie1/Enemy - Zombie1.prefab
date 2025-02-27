@@ -213,7 +213,7 @@ MonoBehaviour:
   deadSound: {fileID: 8300000, guid: f5ce78ae226fcc24abc40fe3943296e7, type: 3}
   deadSoundVolume: 0.8
   attackSound: {fileID: 8300000, guid: eece7b8d5a6b5684ea9ee6465fe79905, type: 3}
-  attackSoundVolume: 0.7
+  attackSoundVolume: 0.85
   playerHurtSound: {fileID: 8300000, guid: ae5a533aa84082849aa2dbdf38242fdb, type: 3}
   playerHurtVolume: 0.3
   isUseProjectile: 0
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyAI: {fileID: 208700963871676420}
-  rayDistance: 0.7
+  rayDistance: 1
   playerLayer:
     serializedVersion: 2
     m_Bits: 64

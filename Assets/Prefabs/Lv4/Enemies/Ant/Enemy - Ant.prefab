@@ -225,7 +225,7 @@ MonoBehaviour:
   fireRate: 1
   detectDistance: 10
   controller: {fileID: 0}
-  animator: {fileID: 0}
+  animator: {fileID: 1454701942193158087}
   hitEventName: n/a
   deadEventName: Die
   attackEventName: Attack

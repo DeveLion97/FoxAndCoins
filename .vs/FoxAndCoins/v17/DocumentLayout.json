@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Progetti Unity\\FoxAndCoins\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|d:\\progetti unity\\foxandcoins\\assets\\templategame\\script\\ai\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|d:\\progetti unity\\foxandcoins\\assets\\templategame\\script\\environment\\scrollingeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\environment\\scrollingeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|d:\\progetti unity\\foxandcoins\\assets\\templategame\\script\\environment\\parallaxeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\environment\\parallaxeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\ai\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\ai\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\gui\\mainmenu_level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\gui\\mainmenu_level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\environment\\parallaxeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\environment\\parallaxeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\ai\\givedamagetoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,15 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ScrollingEffect.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Environment\\ScrollingEffect.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Environment\\ScrollingEffect.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Environment\\ScrollingEffect.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\Environment\\ScrollingEffect.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T16:46:23.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EnemyAI.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
@@ -62,12 +75,11 @@
               "RelativeToolTip": "Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAMwFAAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T14:15:19.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T14:15:19.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainMenu_Level.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\GUI\\MainMenu_Level.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\GUI\\MainMenu_Level.cs",
@@ -79,19 +91,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ParallaxEffect.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Environment\\ParallaxEffect.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Environment\\ParallaxEffect.cs",
               "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Environment\\ParallaxEffect.cs",
               "RelativeToolTip": "Assets\\TemplateGame\\Script\\Environment\\ParallaxEffect.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T15:49:55.498Z"
+              "WhenOpened": "2024-11-18T15:49:55.498Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MonsterSimpleAI.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\MonsterSimpleAI.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\AI\\MonsterSimpleAI.cs",
@@ -103,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GiveDamageToPlayer.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\GiveDamageToPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\AI\\GiveDamageToPlayer.cs",
@@ -115,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "EnemyShootAnimation.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\EnemyShootAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\AI\\EnemyShootAnimation.cs",
@@ -127,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PlayerWarningTrigger.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\PlayerWarningTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Player\\PlayerWarningTrigger.cs",
@@ -139,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AttackTriggerAI.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\AttackTriggerAI.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\AI\\AttackTriggerAI.cs",
@@ -151,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\Player.cs",

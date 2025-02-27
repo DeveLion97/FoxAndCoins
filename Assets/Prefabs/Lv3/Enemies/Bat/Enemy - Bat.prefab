@@ -287,7 +287,7 @@ MonoBehaviour:
   deadSound: {fileID: 8300000, guid: f5ce78ae226fcc24abc40fe3943296e7, type: 3}
   deadSoundVolume: 0.5
   attackSound: {fileID: 8300000, guid: 06073614eda634444bd0adb5ea156a09, type: 3}
-  attackSoundVolume: 0.7
+  attackSoundVolume: 0.85
   playerHurtSound: {fileID: 8300000, guid: ae5a533aa84082849aa2dbdf38242fdb, type: 3}
   playerHurtVolume: 0.3
   isUseProjectile: 0

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.27f1 (27c554a2199c) revision 2606420'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'it' Physical Memory: 16219 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'it' Physical Memory: 16219 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ D:/Progetti Unity/FoxAndCoins
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62589
+58897
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Progetti Unity/FoxAndCoins
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6704]  Target information:
+Player connection [18492]  Target information:
 
-Player connection [6704]  * "[IP] 192.168.217.18 [Port] 0 [Flags] 2 [Guid] 955252146 [EditorId] 955252146 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18492]  * "[IP] 192.168.181.18 [Port] 0 [Flags] 2 [Guid] 3957717725 [EditorId] 3957717725 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [6704] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [6704] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18492] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18492] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.77 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 6.07 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -85,59 +85,59 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
     Vendor:   NVIDIA
-    VRAM:     3949 MB
-    Driver:   31.0.15.3742
+    VRAM:     3935 MB
+    Driver:   32.0.15.5597
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.011397 seconds.
-- Loaded All Assemblies, in  1.078 seconds
+Registered in 0.008343 seconds.
+- Loaded All Assemblies, in  0.459 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 349 ms
+Android Extension - Scanning For ADB Devices 215 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.031 seconds
-Domain Reload Profiling: 2103ms
-	BeginReloadAssembly (375ms)
+- Finished resetting the current domain, in  0.666 seconds
+Domain Reload Profiling: 1122ms
+	BeginReloadAssembly (150ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (84ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (115ms)
-	LoadAllAssembliesAndSetupDomain (474ms)
-		LoadAssemblies (375ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (146ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (463ms)
-			TypeCache.Refresh (460ms)
-				TypeCache.ScanAssembly (414ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (167ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1031ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (666ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (957ms)
+		SetupLoadedEditorAssemblies (622ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (512ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (10ms)
-			ProcessInitializeOnLoadAttributes (292ms)
-			ProcessInitializeOnLoadMethodAttributes (131ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (345ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -145,191 +145,51 @@ Domain Reload Profiling: 2103ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.860 seconds
-Refreshing native plugins compatible for Editor in 14.35 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.885 seconds
+Refreshing native plugins compatible for Editor in 6.75 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.413 seconds
-Domain Reload Profiling: 3267ms
-	BeginReloadAssembly (905ms)
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling: 1513ms
+	BeginReloadAssembly (447ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (73ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (85ms)
-	LoadAllAssembliesAndSetupDomain (764ms)
-		LoadAssemblies (702ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (326ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (295ms)
-			TypeCache.Refresh (224ms)
-				TypeCache.ScanAssembly (181ms)
-			BuildScriptInfoCaches (57ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1414ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (87ms)
+				TypeCache.ScanAssembly (73ms)
+			BuildScriptInfoCaches (25ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (632ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (938ms)
+		SetupLoadedEditorAssemblies (389ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (679ms)
-			ProcessInitializeOnLoadMethodAttributes (114ms)
-			AfterProcessingInitializeOnLoad (23ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 11.49 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 6.10 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (1.1 MB). Loaded Objects now: 2717.
+Unloading 2172 unused Assets / (1.1 MB). Loaded Objects now: 2718.
 Memory consumption went from 106.9 MB to 105.8 MB.
-Total: 12.538800 ms (FindLiveObjects: 0.444200 ms CreateObjectMapping: 0.434100 ms MarkObjects: 9.302000 ms  DeleteObjects: 2.354400 ms)
+Total: 6.095800 ms (FindLiveObjects: 0.270100 ms CreateObjectMapping: 0.196400 ms MarkObjects: 4.772000 ms  DeleteObjects: 0.854800 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 168773.355493 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent.png
-  artifactKey: Guid(0f868ee3401226846bc1443dc1159c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent.png using Guid(0f868ee3401226846bc1443dc1159c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '823e9783d4bb3fa6b735e377251ab9d9') in 0.1875912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.457688 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent.png
-  artifactKey: Guid(0f868ee3401226846bc1443dc1159c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent.png using Guid(0f868ee3401226846bc1443dc1159c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '897d698ddf939527fff3ee787cf5283e') in 0.0764293 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.329700 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent.png
-  artifactKey: Guid(0f868ee3401226846bc1443dc1159c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent.png using Guid(0f868ee3401226846bc1443dc1159c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fc3455667128d6bceab6687beddc3ad') in 0.0281207 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.200885 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent.png
-  artifactKey: Guid(0f868ee3401226846bc1443dc1159c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent.png using Guid(0f868ee3401226846bc1443dc1159c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c640f4a3cb6a84a1bfde877c222506cc') in 0.1021258 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 102.987926 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/lv4_crates.prefab
-  artifactKey: Guid(b6f3e0d6fa7878a43b39fdf24833e23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/lv4_crates.prefab using Guid(b6f3e0d6fa7878a43b39fdf24833e23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e3c15987f2071b646be12790402a6f3') in 0.0877285 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.700268 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent_0.asset
-  artifactKey: Guid(4f2f5cd987d892e4dad6f7e00780855e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent_0.asset using Guid(4f2f5cd987d892e4dad6f7e00780855e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb3d56230cbef179ea60d765b14fa0fa') in 0.0289811 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.525695 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent_5.asset
-  artifactKey: Guid(0059fe2ecf9d58c488f0a9ae2f369d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent_5.asset using Guid(0059fe2ecf9d58c488f0a9ae2f369d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5c6cf2437ad400d3a596e94c511abab') in 0.0398619 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/lv4_crates.prefab
-  artifactKey: Guid(b6f3e0d6fa7878a43b39fdf24833e23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/lv4_crates.prefab using Guid(b6f3e0d6fa7878a43b39fdf24833e23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ff9a757923344731ec0cce6093beecb') in 0.0383443 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.960383 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_ground/block-inner-corner-top-left.asset
-  artifactKey: Guid(0948bafbf7e7b3948acb6dcca85da629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_ground/block-inner-corner-top-left.asset using Guid(0948bafbf7e7b3948acb6dcca85da629) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf075abed7d78439fcc4d3a0c06bb81e') in 0.0420232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_ground/block-left-edge-vertical.asset
-  artifactKey: Guid(686cd129b5aec2c46a6c4d527a251db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_ground/block-left-edge-vertical.asset using Guid(686cd129b5aec2c46a6c4d527a251db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6317acd0c41dfbc5f85b2c98843f0543') in 0.0372608 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037892 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_ground/block-outer-corner-bottom-left.asset
-  artifactKey: Guid(3df8bbdd1aff79c4b93157a925554d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_ground/block-outer-corner-bottom-left.asset using Guid(3df8bbdd1aff79c4b93157a925554d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cacd1faa9ff2f8c29c9235ea517e17a') in 0.0253154 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019610 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_ground/block-outer-corner-with-platform-top-left.asset
-  artifactKey: Guid(863007656974671429fe9b84e217b27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_ground/block-outer-corner-with-platform-top-left.asset using Guid(863007656974671429fe9b84e217b27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1199184ba4556117ee62898db1db166a') in 0.0405571 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028636 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_ground/block-outer-corner-with-platform-top-right.asset
-  artifactKey: Guid(1f486aebec2c2a64a8689145ce3be0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_ground/block-outer-corner-with-platform-top-right.asset using Guid(1f486aebec2c2a64a8689145ce3be0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd47ce3c40ef12a511f9579c9a3f873d7') in 0.0577578 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.221498 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates
-  artifactKey: Guid(9f79a5dbcb105aa4397dd9527c46d392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates using Guid(9f79a5dbcb105aa4397dd9527c46d392) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9164c0d52196eda52f9b4b1516e09b1') in 0.0009072 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.903546 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent.png
-  artifactKey: Guid(0f868ee3401226846bc1443dc1159c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent.png using Guid(0f868ee3401226846bc1443dc1159c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1f7023613617c5723c6bb4218000fe4') in 0.0935359 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/lv4_crates.prefab
-  artifactKey: Guid(b6f3e0d6fa7878a43b39fdf24833e23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/lv4_crates.prefab using Guid(b6f3e0d6fa7878a43b39fdf24833e23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb40d3ca71937cba4f65463a0f2b7ddd') in 0.0407082 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent_5.asset
-  artifactKey: Guid(0059fe2ecf9d58c488f0a9ae2f369d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 4 FLOATING ISLAND/Crates/level-4-crates-sent_5.asset using Guid(0059fe2ecf9d58c488f0a9ae2f369d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3d3c3d002c981e4ed3d8b5308166c69') in 0.0354005 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
